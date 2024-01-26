@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Josefin+Sans&family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary: #143F6B;
+    --secondary: #FEB139;
+}
+
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'PT Serif', serif;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+p,a,span{
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+.my-container-1{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-container-1 h1{
+    color: rgb(2, 155, 155);
+    margin: 0px auto 20px;
+}
+
+.my-container-1 .container{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.my-container-1 .container img{
+    width: 40vw;
+    height: 25vw;
+    border-radius: 10px;
+}
+
+.my-container-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 245px;
+    margin: 0px 0px 100px;
+}
+
+.my-container-2 h3{
+    color: rgb(2, 155, 155);
+}
+
+.my-container-2 h6{
+    color: rgb(3, 97, 97);
+    margin: 5px 0px 0px;
+}
+
+.my-container-2 .button-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.my-container-2 .button-container div{
+    background-color: red ;
+    height: 50px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.my-container-2 .button-container #rock{
+    background-color: #AC7D88;
+}
+
+.my-container-2 .button-container #rock:hover{
+    background-color: #85586F;
+}
+
+.my-container-2 .button-container #paper{
+    background-color: beige;
+}
+
+.my-container-2 .button-container #paper:hover{
+    background-color: #EBD9B4;
+}
+
+.my-container-2 .button-container #scissors{
+    background-color: #EEEDEB;
+}
+
+.my-container-2 .button-container #scissors:hover{
+    background-color: #a7a6a2;
+}
+
+.my-container-2 .result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-container-2 .result h4{
+    color: #f39600;
+    font-family: 'PT Serif', serif;
+    font-size: 25px;
+    margin: 0px 0px 15px;
+}
+
+.my-container-2 .result .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    /* margin: 0px 0px 10px; */
+
+}
+
+.my-container-2 .result .row p{
+    display: inline-block;
+    width: 150px;
+}
+
+.my-container-2 .result .row .output{
+    display: inline-block;
+    width: 300px;
+}
+
+.my-container-2 .extra{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+.my-container-2 .extra div{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.my-container-2 .extra #clear{
+    background: rgb(31,131,242);
+    background: linear-gradient(90deg, rgba(31,131,242,1) 0%, rgba(31,131,242,1) 100%);
+    color: #fff;
+
+}
+.my-container-2 .extra #clear:hover{
+    background: rgb(31,74,242);
+background: linear-gradient(90deg, rgba(31,74,242,1) 0%, rgba(31,74,242,1) 100%);
+}
+
+.my-container-2 .extra #point{
+    background: rgb(6,209,152);
+background: linear-gradient(90deg, rgba(6,209,152,1) 0%, rgba(6,209,152,1) 100%);
+    color: #fff;
+}
+.my-container-2 .extra #point:hover{
+    background: rgb(2,168,122);
+background: linear-gradient(90deg, rgba(2,168,122,1) 0%, rgba(2,168,122,1) 100%);
+}
+
+.my-container-2 .extra div span{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr, .normal{
+    width: 300px;
+}
