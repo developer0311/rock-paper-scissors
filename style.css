@@ -136,8 +136,6 @@ p,a,span{
     align-items: center;
     justify-content: space-between;
     width: 350px;
-    /* margin: 0px 0px 10px; */
-
 }
 
 .my-container-2 .result .row p{
@@ -177,17 +175,17 @@ p,a,span{
 }
 .my-container-2 .extra #clear:hover{
     background: rgb(31,74,242);
-background: linear-gradient(90deg, rgba(31,74,242,1) 0%, rgba(31,74,242,1) 100%);
+    background: linear-gradient(90deg, rgba(31,74,242,1) 0%, rgba(31,74,242,1) 100%);
 }
 
 .my-container-2 .extra #point{
     background: rgb(6,209,152);
-background: linear-gradient(90deg, rgba(6,209,152,1) 0%, rgba(6,209,152,1) 100%);
+    background: linear-gradient(90deg, rgba(6,209,152,1) 0%, rgba(6,209,152,1) 100%);
     color: #fff;
 }
 .my-container-2 .extra #point:hover{
     background: rgb(2,168,122);
-background: linear-gradient(90deg, rgba(2,168,122,1) 0%, rgba(2,168,122,1) 100%);
+    background: linear-gradient(90deg, rgba(2,168,122,1) 0%, rgba(2,168,122,1) 100%);
 }
 
 .my-container-2 .extra div span{
@@ -199,4 +197,61 @@ background: linear-gradient(90deg, rgba(2,168,122,1) 0%, rgba(2,168,122,1) 100%)
 
 hr, .normal{
     width: 350px;
+}
+
+@media only screen and (max-width : 420px){
+
+    p,a,span{
+        font-size: 15px;
+    }
+
+    .my-container-1 h1{
+        font-size: 40px;
+    }
+
+    .my-container-2 h3{
+        font-size: 27px;
+    }
+    
+    .my-container-2 h6{
+        font-size: 15px;
+    }
+    
+    .my-container-2 .button-container{
+        width: 300px;
+    }
+
+    .my-container-2 .result{
+        width: 300px;
+    }
+
+    .my-container-2 .result h4{
+        color: #f39600;
+        font-family: 'PT Serif', serif;
+        font-size: 25px;
+        margin: 0px 0px 15px;
+    }
+    
+    .my-container-2 .result .row{
+        width: 300px;
+    }
+    
+    .my-container-2 .result .row p{
+        display: inline-block;
+        width: 150px;
+    }
+    
+    .my-container-2 .result .row .output{
+        display: inline-block;
+        width: 300px;
+    }
+    
+    .my-container-2 .extra{
+        width: 300px;
+    }
+
+    
+    hr, .normal{
+        width: 300px;
+    }
 }
