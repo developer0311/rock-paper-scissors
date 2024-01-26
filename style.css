@@ -80,7 +80,7 @@ p,a,span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 350px;
 }
 
 .my-container-2 .button-container div{
@@ -135,19 +135,19 @@ p,a,span{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 300px;
+    width: 350px;
     /* margin: 0px 0px 10px; */
 
 }
 
 .my-container-2 .result .row p{
     display: inline-block;
-    width: 150px;
+    width: 175px;
 }
 
 .my-container-2 .result .row .output{
     display: inline-block;
-    width: 300px;
+    width: 350px;
 }
 
 .my-container-2 .extra{
@@ -155,7 +155,7 @@ p,a,span{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 300px;
+    width: 350px;
 }
 
 .my-container-2 .extra div{
@@ -198,5 +198,5 @@ background: linear-gradient(90deg, rgba(2,168,122,1) 0%, rgba(2,168,122,1) 100%)
 }
 
 hr, .normal{
-    width: 300px;
+    width: 350px;
 }
